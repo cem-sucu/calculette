@@ -29,3 +29,7 @@ const calculer = (valeur) => {
         }
     }
 };
+
+window.addEventListener("error", (e) => {
+    ecran.textContent = "c'est une erreur";
+});
