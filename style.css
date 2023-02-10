@@ -26,7 +26,7 @@ h1 {
     flex-direction: column;
     padding: 15px;
     border-radius: 15px 15px 5px 5px;
-    box-shadow: 0 10px 17px #000;
+    box-shadow: 0 10px 17px #000000;
 }
 
 .ecran {
@@ -73,7 +73,45 @@ button[data-key="8"] {
 button[data-key="13"] {
     grid-column: span 2;
     background-color: #04e456;
+    border-radius: 10px;
     font-size: 35px;
+}
+
+button[data-key="53"] {
+    background-color: #efa02a;
+    color: #fff;
+    border-radius: 20px;
+}
+
+button[data-key="219"] {
+    background-color: #efa02a;
+    color: #fff;
+    border-radius: 20px;
+}
+
+button[data-key="111"] {
+    background-color: #efa02a;
+    color: #fff;
+    border-radius: 20px;
+}
+
+button[data-key="106"] {
+    background-color: #f0cf9d;
+    color: #fff;
+    border-radius: 25px;
+}
+
+button[data-key="109"] {
+    background-color: #f0cf9d;
+    color: #fff;
+    border-radius: 25px;
+}
+
+button[data-key="107"] {
+    background-color: #f0cf9d;
+    color: #fff;
+    border-radius: 25px;
+
 }
 
 p {
@@ -84,6 +122,4 @@ p {
     letter-spacing: 3px;
     font-size: 10px;
     font-style: italic;
-
-
 }
